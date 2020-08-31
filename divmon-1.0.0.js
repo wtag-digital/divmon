@@ -8,8 +8,6 @@
  */
 var file64 = "";
 
-window.onload = mask;
-
 /**
  * Set attribute
  *

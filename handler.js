@@ -10,6 +10,7 @@
 window.onload = handler;
 
 function handler() {
+	mask();
 	eval(gz_screen + "HDL();");
 }
 
