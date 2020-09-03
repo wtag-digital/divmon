@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		
+		<title>@_TITLE</title>
+		
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		
+		<meta http-equiv="content-language" content="pt-br">
+		
+		<meta name="title" content="@_TITLE">
+		
+		<meta name="description" content="@_DESCRIPTION">
+		
+	  	<meta name="keywords" content="@_KEYWORDS">
+		
+		<meta name="author" content="Wtag">
+		
+		<meta name="generator" content="Getz Framework">
+		
+		<meta name="robots" content="@_ROBOTS">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="icon" href="res/img/divmon.svg" height="16">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap">
+		
+		<link rel="stylesheet" href="res/css/divmon-1.0.0.css">
+		
+		<script charset="UTF-8" src="res/js/divmon-1.0.0.js"></script>
+		
+		<script charset="UTF-8" src="index.js"></script>		
+		
+	</head>
+	
+	<body>
+	
+		<div id="dv-loading" class="dv-position-fixed dv-full-width dv-full-height dv-dark-opacity" style="display: none;">
+		
+			<div class="dv-line dv-full-height">
+
+				<div class="dv-column dv-horizontal-align-center dv-vertical-align-center">
+
+					<img src="res/img/white-divmon.svg" width="64">
+
+				</div>
+				
+			</div>		
+
+		</div>		
+
+		<div id="dv-search" class="dv-position-fixed dv-full-width dv-full-height dv-dark-opacity" style="display: none;">
+		
+			<div class="dv-line">
+
+				<div class="dv-column dv-text-align-right">
+					
+					<div class="dv-padding-top-xdpi dv-padding-right-xdpi dv-padding-left-xdpi">
+					
+						<img onclick="showSearch();" class="dv-cursor" src="res/img/icon/white-close.svg" width="24">	
+
+					</div>
+
+				</div>
+				
+			</div>		
+		
+			<div class="dv-line dv-padding-xdpi">
+
+				<div class="dv-column dv-vertical-align-center">
+					
+					<div class="dv-margin-right-hdpi dv-full-width">
+					
+						<form onsubmit="alert(gV(gI('search'))); return false;">
+
+							<input class="dv-padding-mdpi dv-radius dv-bold" type="text" id="search" name="search" autocomplete="off" placeholder="Search for...">
+							
+						</form>
+
+					</div>
+					
+				</div>
+				
+				<img onclick="alert(gV(gI('search')));" class="dv-cursor" src="res/img/icon/white-search.svg" width="24">
+					
+			</div>
+
+		</div>	
+
+		<div id="dv-menu" class="dv-position-fixed dv-full-width dv-full-height dv-dark-opacity" style="display: none;">
+		
+			<div class="dv-line">
+
+				<div class="dv-column">
+				
+					<div class="dv-padding-xdpi">
+					
+						<div class="dv-margin-bottom-hdpi dv-text-align-right">
+				
+							<img onclick="showMenu();" class="dv-cursor" src="res/img/icon/white-close.svg" width="24">	
+							
+						</div>
+
+						<ul class="dv-text-align-center">
+						
+							<li onclick="goTo('/index.html');" class="dv-bold dv-white dv-cursor">Home page</li>
+							
+							<li onclick="location.reload();" class="dv-bold dv-white dv-cursor">Reload page</li>
+						
+						</ul>
+						
+					</div>
+
+				</div>
+				
+			</div>		
+
+		</div>	
+		
+		<div class="dv-line">
+		
+			<div class="dv-column dv-vertical-align-center">
+			
+				<div class="dv-padding-xdpi">
+			
+					<img onclick="goTo('/index.html');" class="dv-cursor" src="res/img/divmon.svg" width="64">
+					
+				</div>
+			
+			</div>
+			
+			<div class="dv-column dv-vertical-align-center dv-horizontal-align-right">
+			
+				<div class="dv-padding-xdpi">
+			
+					<img onclick="showMenu();" class="dv-margin-right-hdpi dv-cursor" src="res/img/icon/menu.svg" width="24">
+				
+					<img onclick="showSearch();" class="dv-cursor" src="res/img/icon/search.svg" width="24">
+					
+				</div>
+			
+			</div>				
+
+		</div>
+
+	</body>
+	
+</html>		
