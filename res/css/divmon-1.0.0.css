@@ -593,6 +593,8 @@ code { font-family: Consolas; }
 	z-index: 3; 
 }
 
+.dv-position-center { margin: 0 auto; }
+
 .dv-top { top: 0; }
 
 .dv-right { right: 0; }
