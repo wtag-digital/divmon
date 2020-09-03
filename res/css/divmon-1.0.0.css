@@ -672,6 +672,11 @@ code { font-family: Consolas; }
 		justify-content: flex-start;
 	}		
 	
+	.dv-line .dv-vertical-align-top { 
+		display: flex; 
+		align-items: flex-start;
+	}	
+	
 	.dv-line .dv-vertical-align-center { 
 		display: flex; 
 		align-items: center;
